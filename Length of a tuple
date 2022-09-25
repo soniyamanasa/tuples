@@ -1,0 +1,3 @@
+m=('c','y','f','u','n','o')
+print(m)
+print(len(m))
