@@ -1,0 +1,10 @@
+a=(4,6,2,8,3,1)
+print(a)
+a=a+(9,)
+print(a)
+a=a[:5]+(15,20,25)+a[:5]
+print(a)
+b=list(a)
+b.append(30)
+a=tuple(b)
+print(a)
